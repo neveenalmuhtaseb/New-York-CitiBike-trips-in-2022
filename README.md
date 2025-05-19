@@ -2,7 +2,7 @@
 
 **Context**
 
-For this project, you’ll be using public data from New York bike-sharing facilities operated by Citi
+For this project, we’ll be using public data from New York bike-sharing facilities operated by Citi
 Bike. For context, Citi Bike’s popularity has increased since its launch in 2013. The company’s
 marketing strategy promotes bike sharing as a sustainable and convenient means of
 transportation, which has been very successful. Since the Covid–19 pandemic, New York
@@ -10,7 +10,7 @@ residents have found even more merit in bike sharing, creating higher demand. Th
 distribution problems—such as fewer bikes at popular bike stations or stations full of docked
 bikes, making it diﬃcult to return a hired bike—and customer complaints.
 
-As the lead analyst, your task is to diagnose where distribution issues stem from and advise
+Our task is to diagnose where distribution issues stem from and advise
 higher management on a solution based on your diagnosis of the root of the problem—whether
 it’s sheer numbers, seasonal demand, or something else. Being in a management position also
 makes you the bridge between divisions, which requires you to ensure the information is
