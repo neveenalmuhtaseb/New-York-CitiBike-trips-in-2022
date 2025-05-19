@@ -18,7 +18,8 @@ tangible for the business development team. To effectively communicate your anal
 non-analysts, you’ll present your insights in an interactive dashboard depicting the metrics you
 identify as vital for tackling the distribution issues.
 
-Data and Tool Requirements
+**Data and Tool Requirements**
+
 For this project, you’ll use open source data from the [Citi Bike database for the year 2022](https://s3.amazonaws.com/tripdata/index.html). To
 enrich this data set, you’ll gather weather data using [NOAA](https://www.noaa.gov)’s API service. You will then use
 Python libraries, including Matplotlib, Seaborn, and Plotly to make charts; pandas and Kepler.gl,
