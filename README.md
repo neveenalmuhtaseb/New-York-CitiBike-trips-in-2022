@@ -1,6 +1,7 @@
 # -New-York-s-CitiBike-trips-in-2022
 
 **Context**
+
 For this project, you’ll be using public data from New York bike-sharing facilities operated by Citi
 Bike. For context, Citi Bike’s popularity has increased since its launch in 2013. The company’s
 marketing strategy promotes bike sharing as a sustainable and convenient means of
