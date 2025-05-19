@@ -1,4 +1,4 @@
-# -New-York-s-CitiBike-trips-in-2022
+# New-York-s-CitiBike-trips-in-2022
 
 **Context**
 
