@@ -143,7 +143,7 @@ else:
     st.header("Conclusions and recommendations")
     st.markdown("### Our analysis has shown that CitiBikes should focus on the following objectives moving forward:")
     st.markdown("Increase docking capacity at top stations to avoid congestion and ensure availability.and Implement dynamic bike rebalancing, especially during morning and evening peaks.")
-    st.markdown/"Adjust docking space as well → stations don’t need to be fully stocked in winter.")
+    st.markdown("Adjust docking space as well → stations don’t need to be fully stocked in winter.")
     st.markdown("Consider seasonality: waterfront demand may spike in warm months → design modular stations that can scale up for summer.")
     st.markdown("Ensure that bikes are fully stocked in all these stations during the warmer months in order to meet the higher demand, but provide a lower supply in winter and late autumn to reduce logistics costs")
     st.markdown("and finally Use automated alerts to dispatch rebalancing crews to top stations when levels cross certain thresholds.")
