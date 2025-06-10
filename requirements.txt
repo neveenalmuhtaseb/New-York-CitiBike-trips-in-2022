@@ -7,3 +7,4 @@ Pillow
 keplergl
 streamlit-keplergl
 numerize
+pyarrow
