@@ -10,6 +10,7 @@ from datetime import datetime as dt
 from numerize.numerize import numerize
 from PIL import Image
 
+
 ########################### Initial settings for the dashboard ####################################################
 
 st.set_page_config(page_title='CitiBikes Strategy Dashboard', layout='wide')
