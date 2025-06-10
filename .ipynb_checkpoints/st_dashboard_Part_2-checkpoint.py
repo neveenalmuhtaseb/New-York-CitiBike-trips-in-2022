@@ -10,10 +10,11 @@ from datetime import datetime as dt
 from numerize.numerize import numerize
 from PIL import Image
 
+
 ########################### Initial settings for the dashboard ####################################################
 
 st.set_page_config(page_title='CitiBikes Strategy Dashboard', layout='wide')
-myImage = Image.open(r"/Users/yasersouri/Desktop/data analysis/specialization 2/New-York-CitiBike-trips-in-2022/visualizations/citibikelogo.png") 
+myImage = Image.open(r'citibikelogo.png') 
 st.image(myImage,width=300)
 st.title("CitiBikes Strategy Dashboard")
 
@@ -26,8 +27,8 @@ page = st.sidebar.selectbox('Select an aspect of the analysis',
 
 ########################## Import data ###########################################################################################
 
-df = pd.read_csv(r'/Users/yasersouri/Desktop/newyork_Data/reduced_data_to_plot_7.csv', index_col=0)
-top20 = pd.read_csv(r'/Users/yasersouri/Desktop/newyork_Data/top20.csv', index_col=0)
+df = pd.read_csv(r'reduced_data_to_plot_7.csv', index_col=0)
+top20 = pd.read_csv(r'top20.csv', index_col=0)
 
 ######################################### DEFINE THE PAGES #####################################################################
 
@@ -35,7 +36,7 @@ top20 = pd.read_csv(r'/Users/yasersouri/Desktop/newyork_Data/top20.csv', index_c
 
 if page == "Intro page":
     st.markdown("#### This dashboard aims at providing helpful insights on the expansion problems CitiBikes currently faces.")
-    myImage2 = Image.open(r"/Users/yasersouri/Desktop/data analysis/specialization 2/New-York-CitiBike-trips-in-2022/visualizations/bike.png") 
+    myImage2 = Image.open(r'bike.png') 
     st.image(myImage2,width=200)
     st.markdown("Analyzing user behavior in 2022 to help the business strategy department assess the current logistics model of bike distribution across the city and identify expansion opportunities. The dashboard is separated into 4 sections:")
     st.markdown("- Weather component and bike usage")
@@ -124,7 +125,7 @@ elif page == 'Interactive map with aggregated bike trips':
 
     st.write("Interactive map showing aggregated bike trips over Chicago")
 
-    path_to_html = "/Users/yasersouri/Desktop/data analysis/specialization 2/New-York-CitiBike-trips-in-2022/CitiBike Trips Aggregated.html" 
+    path_to_html = "CitiBike Trips Aggregated.html" 
 
     # Read file and keep in variable
     with open(path_to_html,'r') as f: 
