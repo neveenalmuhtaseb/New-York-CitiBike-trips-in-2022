@@ -24,3 +24,6 @@ For this project, you’ll use open source data from the [Citi Bike database for
 enrich this data set, you’ll gather weather data using [NOAA](https://www.noaa.gov)’s API service. You will then use
 Python libraries, including Matplotlib, Seaborn, and Plotly to make charts; pandas and Kepler.gl,
 to create maps; and Streamlit to design your final dashboard.
+
+**[streamlit dashboard](https://new-york-citibike-trips-in-2022-b5k4c28gwx5kkumy5vww2y.streamlit.app)**
+
