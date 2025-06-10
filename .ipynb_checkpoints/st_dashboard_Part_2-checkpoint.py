@@ -4,8 +4,6 @@ import numpy as np
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-from streamlit_keplergl import keplergl_static
-from keplergl import KeplerGl
 from datetime import datetime as dt
 from numerize.numerize import numerize
 from PIL import Image
@@ -28,6 +26,7 @@ page = st.sidebar.selectbox('Select an aspect of the analysis',
 ########################## Import data ###########################################################################################
 
 df = pd.read_csv(r'reduced_data_to_plot_7.csv', index_col=0)
+df['date'] = pd.to_datetime(df['date'])
 top20 = pd.read_csv(r'top20.csv', index_col=0)
 
 ######################################### DEFINE THE PAGES #####################################################################
