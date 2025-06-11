@@ -123,7 +123,7 @@ elif page == 'Interactive map with aggregated bike trips':
 
     ### Create the map ###
 
-    st.write("Interactive map showing aggregated bike trips over Chicago")
+    st.write("Interactive map showing aggregated bike trips over New York")
 
     path_to_html = "CitiBike Trips Aggregated.html" 
 
